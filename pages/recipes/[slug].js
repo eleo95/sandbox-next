@@ -63,6 +63,7 @@ export default function ReceipeDetails({ recipe }) {
     <div>
       <div className="banner">
         <Image
+          alt=""
           src={"https:" + featuredImage.fields.file.url}
           width={featuredImage.fields.file.details.image.width}
           height={featuredImage.fields.file.details.image.height}
